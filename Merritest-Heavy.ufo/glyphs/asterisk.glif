@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="asterisk" format="1">
+  <advance width="1240"/>
+  <unicode hex="002A"/>
+  <outline>
+    <contour>
+      <point x="472" y="755" type="line"/>
+      <point x="493" y="1068" type="line"/>
+      <point x="553" y="1193" type="line"/>
+      <point x="463" y="1081" type="line"/>
+      <point x="224" y="881" type="line"/>
+      <point x="73" y="1084" type="line"/>
+      <point x="383" y="1252" type="line"/>
+      <point x="511" y="1274" type="line"/>
+      <point x="386" y="1290" type="line"/>
+      <point x="70" y="1434" type="line"/>
+      <point x="220" y="1660" type="line"/>
+      <point x="463" y="1460" type="line"/>
+      <point x="553" y="1357" type="line"/>
+      <point x="493" y="1490" type="line"/>
+      <point x="472" y="1799" type="line"/>
+      <point x="750" y="1798" type="line"/>
+      <point x="729" y="1490" type="line"/>
+      <point x="658" y="1357" type="line"/>
+      <point x="753" y="1473" type="line"/>
+      <point x="996" y="1657" type="line"/>
+      <point x="1170" y="1432" type="line"/>
+      <point x="827" y="1292" type="line"/>
+      <point x="699" y="1274" type="line"/>
+      <point x="828" y="1250" type="line"/>
+      <point x="1165" y="1082" type="line"/>
+      <point x="991" y="884" type="line"/>
+      <point x="753" y="1081" type="line"/>
+      <point x="661" y="1193" type="line"/>
+      <point x="721" y="1068" type="line"/>
+      <point x="750" y="755" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>755</integer>
+	    <key>width</key>	    <integer>1044</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>70</integer>
+	    <key>width</key>
+	    <integer>1100</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>482</integer>
+	    <key>width</key>
+	    <integer>257</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

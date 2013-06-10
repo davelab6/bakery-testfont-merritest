@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="caron.cap" format="1">
+  <advance width="792"/>
+  <outline>
+    <contour>
+      <point x="304" y="1614" type="line"/>
+      <point x="82" y="1953" type="line"/>
+      <point x="135" y="2000" type="line"/>
+      <point x="377" y="1736" type="line"/>
+      <point x="700" y="2000" type="line"/>
+      <point x="750" y="1954" type="line"/>
+      <point x="445" y="1614" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>1614</integer>
+	    <key>width</key>	    <integer>386</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>82</integer>
+	    <key>width</key>
+	    <integer>668</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="cedilla" format="1">
+  <advance width="479"/>
+  <unicode hex="00B8"/>
+  <outline>
+    <contour>
+      <point x="260" y="30" type="curve"/>
+      <point x="327" y="34" type="line"/>
+      <point x="395" y="30" type="line"/>
+      <point x="423" y="-9"/>
+      <point x="440" y="-121"/>
+      <point x="435" y="-212" type="curve" smooth="yes"/>
+      <point x="423" y="-399"/>
+      <point x="335" y="-474"/>
+      <point x="152" y="-474" type="curve" smooth="yes"/>
+      <point x="99" y="-474"/>
+      <point x="6" y="-462"/>
+      <point x="-16" y="-446" type="curve"/>
+      <point x="19" y="-304" type="line"/>
+      <point x="36" y="-313"/>
+      <point x="63" y="-319"/>
+      <point x="94" y="-319" type="curve" smooth="yes"/>
+      <point x="186" y="-319"/>
+      <point x="259" y="-275"/>
+      <point x="270" y="-137" type="curve" smooth="yes"/>
+      <point x="276" y="-57"/>
+      <point x="267" y="-2"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>-474</integer>
+	    <key>width</key>	    <integer>155</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>270</integer>
+	    <key>width</key>
+	    <integer>165</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

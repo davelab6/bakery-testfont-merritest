@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="icircumflex" format="1">
+  <advance width="748"/>
+  <unicode hex="00EE"/>
+  <outline>
+    <contour>
+      <point x="124" y="1335" type="line"/>
+      <point x="-7" y="1409" type="line"/>
+      <point x="264" y="1775" type="line"/>
+      <point x="517" y="1775" type="line"/>
+      <point x="794" y="1410" type="line"/>
+      <point x="649" y="1336" type="line"/>
+      <point x="390" y="1542" type="line"/>
+    </contour>
+    <contour>
+      <point x="79" y="0" type="line"/>
+      <point x="79" y="136" type="line"/>
+      <point x="214" y="164" type="line"/>
+      <point x="214" y="786" type="line"/>
+      <point x="86" y="930" type="line"/>
+      <point x="86" y="1023" type="line"/>
+      <point x="482" y="1157" type="line"/>
+      <point x="567" y="1132" type="line"/>
+      <point x="567" y="162" type="line"/>
+      <point x="708" y="136" type="line"/>
+      <point x="708" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>136</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1112</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>214</integer>
+	    <key>width</key>
+	    <integer>68</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>457</integer>
+	    <key>width</key>
+	    <integer>110</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

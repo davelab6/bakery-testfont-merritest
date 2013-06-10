@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Eth" format="1">
+  <advance width="1506"/>
+  <unicode hex="00D0"/>
+  <outline>
+    <contour>
+      <point x="-44" y="2" type="line"/>
+      <point x="-32" y="108" type="line"/>
+      <point x="126" y="138" type="line"/>
+      <point x="201" y="702" type="line"/>
+      <point x="65" y="702" type="line"/>
+      <point x="91" y="872" type="line"/>
+      <point x="224" y="872" type="line"/>
+      <point x="294" y="1396" type="line"/>
+      <point x="150" y="1422" type="line"/>
+      <point x="161" y="1532" type="line"/>
+      <point x="478" y="1532" type="line"/>
+      <point x="591" y="1533"/>
+      <point x="717" y="1548"/>
+      <point x="835" y="1548" type="curve" smooth="yes"/>
+      <point x="1318" y="1550"/>
+      <point x="1488" y="1273"/>
+      <point x="1488" y="923" type="curve" smooth="yes"/>
+      <point x="1488" y="373"/>
+      <point x="1228" y="-14"/>
+      <point x="592" y="-14" type="curve" smooth="yes"/>
+      <point x="573" y="-14"/>
+      <point x="536" y="-10"/>
+      <point x="517" y="-7" type="curve"/>
+      <point x="473" y="-3"/>
+      <point x="387" y="1"/>
+      <point x="324" y="2" type="curve"/>
+    </contour>
+    <contour>
+      <point x="477" y="138" type="line"/>
+      <point x="516" y="124"/>
+      <point x="574" y="113"/>
+      <point x="613" y="113" type="curve" smooth="yes"/>
+      <point x="983" y="113"/>
+      <point x="1111" y="549"/>
+      <point x="1111" y="888" type="curve" smooth="yes"/>
+      <point x="1111" y="1268"/>
+      <point x="1014" y="1422"/>
+      <point x="802" y="1422" type="curve" smooth="yes"/>
+      <point x="722" y="1422"/>
+      <point x="662" y="1407"/>
+      <point x="643" y="1396" type="curve"/>
+      <point x="574" y="872" type="line"/>
+      <point x="870" y="872" type="line"/>
+      <point x="844" y="702" type="line"/>
+      <point x="551" y="702" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>-14</integer>
+	    <key>width</key>	    <integer>127</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>2</integer>
+	    <key>width</key>	    <integer>106</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>702</integer>
+	    <key>width</key>	    <integer>170</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1396</integer>
+	    <key>width</key>	    <integer>136</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1422</integer>
+	    <key>width</key>	    <integer>126</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1512</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>1111</integer>
+	    <key>width</key>
+	    <integer>377</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

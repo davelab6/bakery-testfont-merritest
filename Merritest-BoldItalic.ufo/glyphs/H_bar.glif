@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="1">
+  <advance width="1593"/>
+  <unicode hex="0126"/>
+  <outline>
+    <contour>
+      <point x="-1" y="0" type="line"/>
+      <point x="10" y="96" type="line"/>
+      <point x="153" y="126" type="line"/>
+      <point x="260" y="983" type="line"/>
+      <point x="76" y="983" type="line"/>
+      <point x="90" y="1123" type="line"/>
+      <point x="278" y="1123" type="line"/>
+      <point x="313" y="1400" type="line"/>
+      <point x="174" y="1425" type="line"/>
+      <point x="187" y="1530" type="line"/>
+      <point x="766" y="1530" type="line"/>
+      <point x="755" y="1425" type="line"/>
+      <point x="588" y="1400" type="line"/>
+      <point x="553" y="1123" type="line"/>
+      <point x="1156" y="1123" type="line"/>
+      <point x="1191" y="1400" type="line"/>
+      <point x="1028" y="1425" type="line"/>
+      <point x="1039" y="1530" type="line"/>
+      <point x="1624" y="1530" type="line"/>
+      <point x="1612" y="1425" type="line"/>
+      <point x="1466" y="1400" type="line"/>
+      <point x="1431" y="1123" type="line"/>
+      <point x="1622" y="1123" type="line"/>
+      <point x="1608" y="983" type="line"/>
+      <point x="1413" y="983" type="line"/>
+      <point x="1306" y="127" type="line"/>
+      <point x="1460" y="96" type="line"/>
+      <point x="1450" y="0" type="line"/>
+      <point x="843" y="0" type="line"/>
+      <point x="854" y="97" type="line"/>
+      <point x="1031" y="127" type="line"/>
+      <point x="1092" y="613" type="line"/>
+      <point x="489" y="613" type="line"/>
+      <point x="428" y="126" type="line"/>
+      <point x="593" y="97" type="line"/>
+      <point x="585" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="507" y="758" type="line"/>
+      <point x="1110" y="758" type="line"/>
+      <point x="1138" y="983" type="line"/>
+      <point x="535" y="983" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>96</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>613</integer>
+	    <key>width</key>	    <integer>145</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>983</integer>
+	    <key>width</key>	    <integer>140</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1425</integer>
+	    <key>width</key>	    <integer>105</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>-1</integer>
+	    <key>width</key>
+	    <integer>1625</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

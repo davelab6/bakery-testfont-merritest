@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="igrave" format="1">
+  <advance width="683"/>
+  <unicode hex="00EC"/>
+  <outline>
+    <contour>
+      <point x="461" y="1343" type="line"/>
+      <point x="339" y="1425"/>
+      <point x="150" y="1560"/>
+      <point x="84" y="1661" type="curve"/>
+      <point x="191" y="1770" type="line"/>
+      <point x="503" y="1386" type="line"/>
+    </contour>
+    <contour>
+      <point x="140" y="0" type="line"/>
+      <point x="140" y="68" type="line"/>
+      <point x="305" y="84" type="line"/>
+      <point x="305" y="971" type="line"/>
+      <point x="161" y="1021" type="line"/>
+      <point x="161" y="1072" type="line"/>
+      <point x="406" y="1133" type="line"/>
+      <point x="444" y="1114" type="line"/>
+      <point x="444" y="85" type="line"/>
+      <point x="611" y="68" type="line"/>
+      <point x="611" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>68</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1113</integer>
+	    <key>width</key>	    <integer>20</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>140</integer>
+	    <key>width</key>
+	    <integer>51</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>305</integer>
+	    <key>width</key>
+	    <integer>139</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

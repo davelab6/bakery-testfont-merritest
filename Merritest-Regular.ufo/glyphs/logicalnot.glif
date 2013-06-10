@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="logicalnot" format="1">
+  <advance width="1232"/>
+  <unicode hex="00AC"/>
+  <outline>
+    <contour>
+      <point x="178" y="744" type="line"/>
+      <point x="178" y="872" type="line"/>
+      <point x="1054" y="872" type="line"/>
+      <point x="1054" y="343" type="line"/>
+      <point x="890" y="343" type="line"/>
+      <point x="890" y="744" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>744</integer>
+	    <key>width</key>	    <integer>128</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>890</integer>
+	    <key>width</key>
+	    <integer>164</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

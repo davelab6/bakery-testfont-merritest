@@ -1,0 +1,338 @@
+
+# GSUB 
+
+
+lookup aaltAccessAllAlternatesinLatinl {
+  lookupflag 0;
+    sub \a by \ordfeminine ;
+    sub \o by \ordmasculine ;
+    sub \scedilla by \uni0219 ;
+    sub \f_i by \fi_trk ;
+    sub \Idotaccent by \i.uc ;
+    sub \Scedilla by \uni0218 ;
+    sub \uni0162 by \uni021A ;
+    sub \uni0163 by \uni021B ;
+} aaltAccessAllAlternatesinLatinl;
+
+lookup sub_alt_aaltlatn_0 {
+  lookupflag 0;
+    sub \i from [\i.cy \i.dot ];
+} sub_alt_aaltlatn_0;
+
+lookup loclLocalizedFormslookup2 {
+  lookupflag 0;
+    sub \i by \i.cy ;
+} loclLocalizedFormslookup2;
+
+lookup loclLocalizedFormslookup3 {
+  lookupflag 0;
+    sub \i by \i.dot ;
+    sub \f_i by \fi_trk ;
+    sub \Idotaccent by \i.uc ;
+} loclLocalizedFormslookup3;
+
+lookup loclLocalizedFormslookup4 {
+  lookupflag 0;
+    sub \f \i.dot  by \fi_trk;
+} loclLocalizedFormslookup4;
+
+lookup loclLocalizedFormslookup5 {
+  lookupflag 0;
+    sub \f_i by \fi_trk ;
+} loclLocalizedFormslookup5;
+
+lookup loclLocalizedFormslookup6 {
+  lookupflag 0;
+    sub \scedilla by \uni0219 ;
+    sub \Scedilla by \uni0218 ;
+} loclLocalizedFormslookup6;
+
+lookup loclLocalizedFormslookup7 {
+  lookupflag 0;
+    sub \scedilla by \uni0219 ;
+    sub \Scedilla by \uni0218 ;
+    sub \uni0162 by \uni021A ;
+    sub \uni0163 by \uni021B ;
+} loclLocalizedFormslookup7;
+
+lookup loclLocalizedFormslookup8 {
+  lookupflag 0;
+    sub \i by \i.dot ;
+} loclLocalizedFormslookup8;
+
+lookup SingleSubstitutionlookup16 {
+  lookupflag 0;
+    sub \a by \ordfeminine ;
+    sub \o by \ordmasculine ;
+} SingleSubstitutionlookup16;
+
+lookup ordnOrdinalsinLatinlookup9 {
+  lookupflag 0;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\a ]'lookup SingleSubstitutionlookup16  ;
+  subtable;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\o ]'lookup SingleSubstitutionlookup16  ;
+  subtable;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\period ] [\a ]'lookup SingleSubstitutionlookup16  ;
+  subtable;
+    sub [\zero \one \two \three \four \five \six \seven \eight \nine ] [\period ] [\o ]'lookup SingleSubstitutionlookup16  ;
+} ordnOrdinalsinLatinlookup9;
+
+lookup fracDiagonalFractionsinLatinloo {
+  lookupflag 0;
+    sub \zero \slash \zero  by \percent;
+    sub \zero \slash \zero \zero  by \perthousand;
+    sub \one \slash \two  by \onehalf;
+    sub \one \slash \four  by \onequarter;
+    sub \three \slash \four  by \threequarters;
+} fracDiagonalFractionsinLatinloo;
+
+lookup supsSuperscriptinLatinlookup11 {
+  lookupflag 0;
+    sub \one by \onesuperior ;
+    sub \two by \twosuperior ;
+    sub \three by \threesuperior ;
+} supsSuperscriptinLatinlookup11;
+
+lookup ligaStandardLigaturesinLatinloo {
+  lookupflag 0;
+    sub \f \f  by \f_f;
+    sub \f \i  by \f_i;
+    sub \f \l  by \f_l;
+    sub \f \f \i  by \f_f_i;
+    sub \f \f \l  by \f_f_l;
+} ligaStandardLigaturesinLatinloo;
+
+lookup sub_single_ligalatn_0 {
+  lookupflag 0;
+    sub \i by \i.dot ;
+    sub \f_i by \fi_trk ;
+    sub \Idotaccent by \i.uc ;
+} sub_single_ligalatn_0;
+
+lookup sub_ligature_ligalatn_0 {
+  lookupflag 0;
+    sub \f \i.dot  by \fi_trk;
+} sub_ligature_ligalatn_0;
+
+lookup sub_single_ligalatn_2 {
+  lookupflag 0;
+    sub \f_f_i by \ffi_dflt ;
+} sub_single_ligalatn_2;
+
+feature aalt {
+
+  script DFLT;
+     language dflt ;
+      lookup aaltAccessAllAlternatesinLatinl;
+      lookup sub_alt_aaltlatn_0;
+
+  script latn;
+     language dflt ;
+      lookup aaltAccessAllAlternatesinLatinl;
+      lookup sub_alt_aaltlatn_0;
+     language AZE  exclude_dflt;
+      lookup aaltAccessAllAlternatesinLatinl;
+      lookup sub_alt_aaltlatn_0;
+     language CRT  exclude_dflt;
+      lookup aaltAccessAllAlternatesinLatinl;
+      lookup sub_alt_aaltlatn_0;
+     language MOL  exclude_dflt;
+      lookup aaltAccessAllAlternatesinLatinl;
+      lookup sub_alt_aaltlatn_0;
+     language ROM  exclude_dflt;
+      lookup aaltAccessAllAlternatesinLatinl;
+      lookup sub_alt_aaltlatn_0;
+     language TRK  exclude_dflt;
+      lookup aaltAccessAllAlternatesinLatinl;
+      lookup sub_alt_aaltlatn_0;
+} aalt;
+
+feature locl {
+
+  script DFLT;
+     language AZE  exclude_dflt;
+      lookup loclLocalizedFormslookup2;
+     language CRT  exclude_dflt;
+      lookup loclLocalizedFormslookup8;
+     language MOL  exclude_dflt;
+      lookup loclLocalizedFormslookup6;
+     language ROM  exclude_dflt;
+      lookup loclLocalizedFormslookup7;
+     language TRK  exclude_dflt;
+      lookup loclLocalizedFormslookup3;
+      lookup loclLocalizedFormslookup4;
+      lookup loclLocalizedFormslookup5;
+} locl;
+
+feature ordn {
+
+  script latn;
+     language dflt ;
+      lookup ordnOrdinalsinLatinlookup9;
+     language AZE  exclude_dflt;
+      lookup ordnOrdinalsinLatinlookup9;
+     language CRT  exclude_dflt;
+      lookup ordnOrdinalsinLatinlookup9;
+     language MOL  exclude_dflt;
+      lookup ordnOrdinalsinLatinlookup9;
+     language ROM  exclude_dflt;
+      lookup ordnOrdinalsinLatinlookup9;
+     language TRK  exclude_dflt;
+      lookup ordnOrdinalsinLatinlookup9;
+} ordn;
+
+feature frac {
+
+  script latn;
+     language dflt ;
+      lookup fracDiagonalFractionsinLatinloo;
+     language AZE  exclude_dflt;
+      lookup fracDiagonalFractionsinLatinloo;
+     language CRT  exclude_dflt;
+      lookup fracDiagonalFractionsinLatinloo;
+     language MOL  exclude_dflt;
+      lookup fracDiagonalFractionsinLatinloo;
+     language ROM  exclude_dflt;
+      lookup fracDiagonalFractionsinLatinloo;
+     language TRK  exclude_dflt;
+      lookup fracDiagonalFractionsinLatinloo;
+} frac;
+
+feature sups {
+
+  script latn;
+     language dflt ;
+      lookup supsSuperscriptinLatinlookup11;
+     language AZE  exclude_dflt;
+      lookup supsSuperscriptinLatinlookup11;
+     language CRT  exclude_dflt;
+      lookup supsSuperscriptinLatinlookup11;
+     language MOL  exclude_dflt;
+      lookup supsSuperscriptinLatinlookup11;
+     language ROM  exclude_dflt;
+      lookup supsSuperscriptinLatinlookup11;
+     language TRK  exclude_dflt;
+      lookup supsSuperscriptinLatinlookup11;
+} sups;
+
+feature liga {
+
+  script latn;
+     language dflt ;
+      lookup ligaStandardLigaturesinLatinloo;
+     language AZE  exclude_dflt;
+      lookup ligaStandardLigaturesinLatinloo;
+     language CRT  exclude_dflt;
+      lookup ligaStandardLigaturesinLatinloo;
+     language MOL  exclude_dflt;
+      lookup ligaStandardLigaturesinLatinloo;
+     language ROM  exclude_dflt;
+      lookup ligaStandardLigaturesinLatinloo;
+     language TRK  exclude_dflt;
+      lookup sub_single_ligalatn_0;
+      lookup sub_ligature_ligalatn_0;
+      lookup sub_single_ligalatn_2;
+} liga;
+
+# GPOS 
+
+
+lookup kernHorizontalKerninginLatinloo {
+  lookupflag 0;
+    pos \T \z -95;
+    pos \T \y -95;
+    pos \T \x -95;
+    pos \T \w -95;
+    pos \T \u -95;
+    pos \T \t -71;
+    pos \T \s -95;
+    pos \T \r -71;
+    pos \T \p -71;
+    pos \T \o -95;
+    pos \T \n -71;
+    pos \T \m -71;
+    pos \T \j -24;
+    pos \T \i -24;
+    pos \T \g -95;
+    pos \u \r -10;
+} kernHorizontalKerninginLatinloo;
+
+feature kern {
+
+  script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinloo;
+
+  script latn;
+     language dflt ;
+      lookup kernHorizontalKerninginLatinloo;
+     language AZE  exclude_dflt;
+      lookup kernHorizontalKerninginLatinloo;
+     language CRT  exclude_dflt;
+      lookup kernHorizontalKerninginLatinloo;
+     language MOL  exclude_dflt;
+      lookup kernHorizontalKerninginLatinloo;
+     language ROM  exclude_dflt;
+      lookup kernHorizontalKerninginLatinloo;
+     language TRK  exclude_dflt;
+      lookup kernHorizontalKerninginLatinloo;
+} kern;
+
+@GDEF_Simple = [\space \exclam \quotedbl \numbersign \dollar \ampersand 
+	\quoteright \parenleft \parenright \asterisk \plus \comma \hyphen \period \slash 
+	\zero \one \two \three \four \five \six \seven \eight \nine \colon \semicolon \less 
+	\equal \greater \question \at \A \B \C \D \E \F \G \H \I \J \K \L \M \N \O \P \Q \R \S \T \U \V \W 
+	\X \Y \Z \bracketleft \backslash \bracketright \asciicircum \underscore 
+	\quoteleft \a \b \c \d \e \f \g \h \i \j \k \l \m \n \o \p \q \r \s \t \u \v \w \x \y \z \braceleft 
+	\bar \braceright \asciitilde \exclamdown \cent \sterling \fraction \yen \florin 
+	\section \currency \quotesingle \quotedblleft \guillemotleft \guilsinglleft 
+	\guilsinglright \endash \dagger \daggerdbl \periodcentered \paragraph \bullet 
+	\quotesinglbase \quotedblbase \quotedblright \guillemotright \ellipsis 
+	\questiondown \grave \acute \circumflex \tilde \macron \breve \dotaccent 
+	\dieresis \ring \cedilla \hungarumlaut \ogonek \caron \emdash \AE \ordfeminine 
+	\Lslash \Oslash \OE \ordmasculine \ae \dotlessi \lslash \oslash \oe \germandbls 
+	\onesuperior \logicalnot \mu \trademark \Eth \plusminus \Thorn \divide 
+	\brokenbar \degree \thorn \twosuperior \registered \minus \eth \multiply 
+	\threesuperior \copyright \Aacute \Acircumflex \Adieresis \Agrave \Aring 
+	\Atilde \Ccedilla \Eacute \Ecircumflex \Edieresis \Egrave \Iacute \Icircumflex 
+	\Idieresis \Igrave \Ntilde \Oacute \Ocircumflex \Odieresis \Ograve \Otilde 
+	\Scaron \Uacute \Ucircumflex \Udieresis \Ugrave \Yacute \Ydieresis \Zcaron 
+	\aacute \acircumflex \adieresis \agrave \aring \atilde \ccedilla \eacute 
+	\ecircumflex \edieresis \egrave \iacute \icircumflex \idieresis \igrave \ntilde 
+	\oacute \ocircumflex \odieresis \ograve \otilde \scaron \uacute \ucircumflex 
+	\udieresis \ugrave \yacute \ydieresis \zcaron \foursuperior \.null \CR \dotlessj 
+	\uni00AD \Eogonek \grave.cap \dieresis.cap \commaaccent \acute.cap 
+	\circumflex.cap \caron.cap \breve.cap \dotaccent.cap \ring.cap \tilde.cap 
+	\hungarumlaut.cap \aogonek \cacute \eogonek \ij \ohungarumlaut \sacute 
+	\uhungarumlaut \zacute \zdotaccent \Aogonek \Cacute \Lcaron \caronvertical 
+	\Nacute \Sacute \Zacute \Zdotaccent \lcaron \nacute \nbspace \Euro \infinity 
+	\lessequal \greaterequal \partialdiff \summation \product \pi \integral \Omega 
+	\radical \approxequal \Delta \kgreenlandic \itilde \scedilla \estimated 
+	\afii61352 \notequal \minute \second \quotereversed \exclamdbl \amacron \abreve 
+	\aeacute \uni1E03 \ccircumflex \ccaron \cdotaccent \uni1E0B \dcaron 
+	\gcircumflex \gbreve \gdotaccent \gcommaaccent \kcommaaccent \lcommaaccent 
+	\uni1E41 \ncaron \ncommaaccent \racute \rcaron \uni1E61 \utilde \umacron \ubreve 
+	\wdieresis \wcircumflex \ygrave \ycircumflex \uni1E02 \Ccircumflex \Ccaron 
+	\Dcaron \Ecaron \Emacron \macron.cap \Ebreve \Edotaccent \uni1E1E \Gcommaaccent 
+	\Gcircumflex \Gbreve \Gdotaccent \Hcircumflex \Itilde \Imacron \Ibreve 
+	\Idotaccent \IJ \Jcircumflex \Kcommaaccent \Lcommaaccent \Lacute \uni1E40 
+	\Ncommaaccent \Ncaron \Omacron \Obreve \Ohungarumlaut \uni1E56 \Rcommaaccent 
+	\Racute \Rcaron \Scircumflex \uni1E60 \Tcaron \uni1E6A \Utilde \Umacron \Ubreve 
+	\Uhungarumlaut \Uring \Wacute \Wgrave \Wdieresis \Wcircumflex \Ygrave 
+	\Ycircumflex \scircumflex \uni1E6B \tcaron \wacute \wgrave \Cdotaccent \uni1E0A 
+	\ecaron \emacron \ebreve \edotaccent \uni1E1F \hcircumflex \imacron \ibreve 
+	\jcircumflex \omacron \obreve \rcommaaccent \LF \HT \DLE \DC1 \DC2 \DC3 \DC4 \RS \US 
+	\DEL \lozenge \uni03BC \uni0394 \uni03A9 \i.cy \Scedilla \uni0218 \uni0219 
+	\uni0162 \uni0163 \uni021A \uni021B \uni0001 \uni0002 \uni0003 \uni0019 \uni0018 
+	\uni0017 \uni0016 \uni0015 \uni0008 \uni0007 \uni0006 \uni0005 \uni0004 \lacute 
+	\iogonek \uogonek \Dcroat \Iogonek \Uogonek \Hbar \Ldot \ldot \Tbar \tbar \uni1E57 
+	\dcroat \hbar \eng \Eng \uring \Amacron \Abreve \AEacute \uni02c9 \uni2113 
+	\uni2215 \i.dot \i.uc \ffi_dflt \uni2219 ];
+@GDEF_Ligature = [\percent \perthousand \onehalf \onequarter \threequarters \f_f 
+	\f_i \f_l \f_f_i \f_f_l \fi_trk ];
+
+table GDEF {
+  GlyphClassDef @GDEF_Simple, @GDEF_Ligature, , ;
+
+} GDEF;
+

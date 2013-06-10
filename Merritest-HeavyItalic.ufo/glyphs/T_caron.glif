@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Tcaron" format="1">
+  <advance width="1421"/>
+  <unicode hex="0164"/>
+  <outline>
+    <contour>
+      <point x="212" y="0" type="line"/>
+      <point x="225" y="106" type="line"/>
+      <point x="475" y="136" type="line"/>
+      <point x="642" y="1394" type="line"/>
+      <point x="406" y="1368" type="line"/>
+      <point x="239" y="945" type="line"/>
+      <point x="51" y="945" type="line"/>
+      <point x="150" y="1530" type="line"/>
+      <point x="1526" y="1530" type="line"/>
+      <point x="1451" y="947" type="line"/>
+      <point x="1270" y="945" type="line"/>
+      <point x="1237" y="1368" type="line"/>
+      <point x="995" y="1394" type="line"/>
+      <point x="827" y="136" type="line"/>
+      <point x="1111" y="106" type="line"/>
+      <point x="1101" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="767" y="1599" type="line"/>
+      <point x="557" y="1956" type="line"/>
+      <point x="681" y="2014" type="line"/>
+      <point x="882" y="1842" type="line"/>
+      <point x="1205" y="2014" type="line"/>
+      <point x="1312" y="1957" type="line"/>
+      <point x="944" y="1599" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>106</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1394</integer>
+	    <key>width</key>	    <integer>136</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1599</integer>
+	    <key>width</key>	    <integer>415</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>51</integer>
+	    <key>width</key>
+	    <integer>1475</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>557</integer>
+	    <key>width</key>
+	    <integer>755</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="quotedbl" format="1">
+  <advance width="1057"/>
+  <unicode hex="0022"/>
+  <outline>
+    <contour>
+      <point x="224" y="966" type="line"/>
+      <point x="303" y="1687" type="line"/>
+      <point x="560" y="1687" type="line"/>
+      <point x="394" y="966" type="line"/>
+    </contour>
+    <contour>
+      <point x="723" y="966" type="line"/>
+      <point x="802" y="1687" type="line"/>
+      <point x="1059" y="1687" type="line"/>
+      <point x="893" y="966" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>966</integer>
+	    <key>width</key>	    <integer>721</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>224</integer>
+	    <key>width</key>
+	    <integer>336</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>723</integer>
+	    <key>width</key>
+	    <integer>336</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

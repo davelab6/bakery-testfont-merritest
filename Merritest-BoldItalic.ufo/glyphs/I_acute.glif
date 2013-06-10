@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Iacute" format="1">
+  <advance width="745"/>
+  <unicode hex="00CD"/>
+  <outline>
+    <contour>
+      <point x="6" y="0" type="line"/>
+      <point x="17" y="96" type="line"/>
+      <point x="166" y="126" type="line"/>
+      <point x="329" y="1400" type="line"/>
+      <point x="189" y="1425" type="line"/>
+      <point x="201" y="1530" type="line"/>
+      <point x="778" y="1530" type="line"/>
+      <point x="767" y="1425" type="line"/>
+      <point x="604" y="1400" type="line"/>
+      <point x="441" y="126" type="line"/>
+      <point x="607" y="97" type="line"/>
+      <point x="600" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="532" y="1592" type="curve"/>
+      <point x="448" y="1665" type="line"/>
+      <point x="724" y="2007" type="line"/>
+      <point x="879" y="1846" type="line"/>
+      <point x="827" y="1740"/>
+      <point x="628" y="1628"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>96</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1425</integer>
+	    <key>width</key>	    <integer>105</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1665</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>6</integer>
+	    <key>width</key>
+	    <integer>772</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>448</integer>
+	    <key>width</key>
+	    <integer>431</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

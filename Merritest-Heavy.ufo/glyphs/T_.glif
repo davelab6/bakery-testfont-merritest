@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="T" format="1">
+  <advance width="1456"/>
+  <unicode hex="0054"/>
+  <outline>
+    <contour>
+      <point x="341" y="0" type="line"/>
+      <point x="341" y="140" type="line"/>
+      <point x="571" y="179" type="line"/>
+      <point x="571" y="1385" type="line"/>
+      <point x="297" y="1358" type="line"/>
+      <point x="228" y="1143" type="line"/>
+      <point x="47" y="1134" type="line"/>
+      <point x="71" y="1553" type="line"/>
+      <point x="1410" y="1553" type="line"/>
+      <point x="1408" y="1146" type="line"/>
+      <point x="1267" y="1129" type="line"/>
+      <point x="1190" y="1358" type="line"/>
+      <point x="925" y="1385" type="line"/>
+      <point x="925" y="180" type="line"/>
+      <point x="1150" y="140" type="line"/>
+      <point x="1150" y="0" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>140</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1385</integer>
+	    <key>width</key>	    <integer>168</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>571</integer>
+	    <key>width</key>
+	    <integer>141</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>797</integer>
+	    <key>width</key>
+	    <integer>128</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

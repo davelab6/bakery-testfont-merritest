@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+	<key>T</key>
+	<dict>
+	    <key>z</key>
+	    <integer>-95</integer>
+	    <key>y</key>
+	    <integer>-95</integer>
+	    <key>x</key>
+	    <integer>-95</integer>
+	    <key>w</key>
+	    <integer>-95</integer>
+	    <key>u</key>
+	    <integer>-95</integer>
+	    <key>t</key>
+	    <integer>-71</integer>
+	    <key>s</key>
+	    <integer>-95</integer>
+	    <key>r</key>
+	    <integer>-71</integer>
+	    <key>p</key>
+	    <integer>-71</integer>
+	    <key>o</key>
+	    <integer>-95</integer>
+	    <key>n</key>
+	    <integer>-71</integer>
+	    <key>m</key>
+	    <integer>-71</integer>
+	    <key>j</key>
+	    <integer>-24</integer>
+	    <key>i</key>
+	    <integer>-24</integer>
+	    <key>g</key>
+	    <integer>-95</integer>
+	</dict>
+	<key>u</key>
+	<dict>
+	    <key>r</key>
+	    <integer>-10</integer>
+	</dict>
+    </dict>
+</plist>

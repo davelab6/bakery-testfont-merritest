@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Hbar" format="1">
+  <advance width="1533"/>
+  <unicode hex="0126"/>
+  <outline>
+    <contour>
+      <point x="20" y="0" type="line"/>
+      <point x="29" y="86" type="line"/>
+      <point x="177" y="116" type="line"/>
+      <point x="286" y="992" type="line"/>
+      <point x="92" y="992" type="line"/>
+      <point x="106" y="1122" type="line"/>
+      <point x="302" y="1122" type="line"/>
+      <point x="338" y="1406" type="line"/>
+      <point x="205" y="1429" type="line"/>
+      <point x="217" y="1530" type="line"/>
+      <point x="700" y="1530" type="line"/>
+      <point x="689" y="1429" type="line"/>
+      <point x="536" y="1406" type="line"/>
+      <point x="500" y="1122" type="line"/>
+      <point x="1154" y="1122" type="line"/>
+      <point x="1190" y="1406" type="line"/>
+      <point x="1040" y="1429" type="line"/>
+      <point x="1050" y="1530" type="line"/>
+      <point x="1537" y="1530" type="line"/>
+      <point x="1525" y="1429" type="line"/>
+      <point x="1387" y="1406" type="line"/>
+      <point x="1351" y="1122" type="line"/>
+      <point x="1555" y="1122" type="line"/>
+      <point x="1541" y="992" type="line"/>
+      <point x="1335" y="992" type="line"/>
+      <point x="1227" y="117" type="line"/>
+      <point x="1378" y="86" type="line"/>
+      <point x="1369" y="0" type="line"/>
+      <point x="859" y="0" type="line"/>
+      <point x="867" y="87" type="line"/>
+      <point x="1030" y="117" type="line"/>
+      <point x="1092" y="622" type="line"/>
+      <point x="438" y="622" type="line"/>
+      <point x="375" y="116" type="line"/>
+      <point x="532" y="87" type="line"/>
+      <point x="524" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="454" y="752" type="line"/>
+      <point x="1108" y="752" type="line"/>
+      <point x="1138" y="992" type="line"/>
+      <point x="484" y="992" type="line"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>86</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>622</integer>
+	    <key>width</key>	    <integer>130</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>992</integer>
+	    <key>width</key>	    <integer>130</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1429</integer>
+	    <key>width</key>	    <integer>101</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>20</integer>
+	    <key>width</key>
+	    <integer>1535</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>

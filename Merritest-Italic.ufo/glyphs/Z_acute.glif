@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<glyph name="Zacute" format="1">
+  <advance width="1213"/>
+  <unicode hex="0179"/>
+  <outline>
+    <contour>
+      <point x="46" y="0" type="line"/>
+      <point x="19" y="89" type="line"/>
+      <point x="828" y="1217" type="line"/>
+      <point x="997" y="1416" type="line"/>
+      <point x="421" y="1409" type="line"/>
+      <point x="326" y="1162" type="line"/>
+      <point x="208" y="1186" type="line"/>
+      <point x="264" y="1530" type="line"/>
+      <point x="1202" y="1530" type="line"/>
+      <point x="1227" y="1444" type="line"/>
+      <point x="416" y="303" type="line"/>
+      <point x="263" y="107" type="line"/>
+      <point x="904" y="132" type="line"/>
+      <point x="1029" y="384" type="line"/>
+      <point x="1150" y="353" type="line"/>
+      <point x="1057" y="0" type="line"/>
+    </contour>
+    <contour>
+      <point x="751" y="1613" type="curve"/>
+      <point x="698" y="1658" type="line"/>
+      <point x="974" y="2000" type="line"/>
+      <point x="1098" y="1862" type="line"/>
+      <point x="1046" y="1751"/>
+      <point x="847" y="1649"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.fontlab.hintData</key>
+      <dict>
+	<key>hhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>	    <integer>0</integer>
+	    <key>width</key>	    <integer>119</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1412</integer>
+	    <key>width</key>	    <integer>117</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1444</integer>
+	    <key>width</key>	    <integer>86</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>	    <integer>1658</integer>
+	    <key>width</key>	    <integer>21</integer>
+	  </dict>
+	</array>
+	<key>vhints</key>
+	<array>
+	  <dict>
+	    <key>position</key>
+	    <integer>19</integer>
+	    <key>width</key>
+	    <integer>1208</integer>
+	  </dict>
+	  <dict>
+	    <key>position</key>
+	    <integer>698</integer>
+	    <key>width</key>
+	    <integer>400</integer>
+	  </dict>
+	</array>
+      </dict>
+    </dict>
+  </lib>
+</glyph>
