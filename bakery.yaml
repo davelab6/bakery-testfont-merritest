@@ -1,0 +1,4 @@
+license_file: OFL.txt
+subset: [menu, latin]
+ttfautohint: -c -x -y -z
+ufo: [sources/otf/Merritest-Regular.ufo]
