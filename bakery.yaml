@@ -1,4 +1,23 @@
+copyright_license: ofl
+copyright_notice: 'yes'
+design_category: serif
+design_quality: '5'
+hinting_level: '5'
+hinting_quality: '5'
 license_file: OFL.txt
-subset: [menu, latin]
-ttfautohint: -c -x -y -z
+price_design_usd: '70000'
+price_total_usd: '70000'
+prints_ok: 'yes'
+rfn_asserted: 'yes'
+rfn_permission: 'yes'
+source_cff_filetype: VFB
+source_drawing_filetype: VFB
+source_ttf_filetype: VFB
+stats_family_name: merriweather
+subset: [menu, latin, latin-ext+latin, cyrillic+latin]
+trademark_notice: 'yes'
+trademark_permission: 'yes'
+txt_files_copied: [FONTLOG.txt, README.md]
 ufo: [sources/otf/Merritest-Regular.ufo]
+vendor_category: '3'
+vendor_quality: '5'
